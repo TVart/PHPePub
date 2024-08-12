@@ -284,7 +284,6 @@ class EPub {
             $partCount = 0;
             $this->chapterCount++;
 
-            $oneChapter = each($chapter);
             foreach ($chapter as $v) {
                 /** @noinspection PhpUnusedLocalVariableInspection */
                 if ($this->encodeHTML === true) {
